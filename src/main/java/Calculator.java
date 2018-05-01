@@ -8,19 +8,19 @@ public class Calculator {
         this.num2 = numberPassedIn2;
     }
 
-    public int add(){
-        return this.num1 + this.num2;
+    public int add(int num1, int num2){
+        return num1 + num2;
     }
 
-    public int subtract(){
-        return this.num1 - this.num2;
+    public int subtract(int num1, int num2){
+        return num1 - num2;
     }
 
-    public int multiply(){
-        return this.num1 * this.num2;
+    public int multiply(int num1, int num2){
+        return num1 * num2;
     }
 
-    public int divide(){
-        return this.num1 % this.num2;
+    public int divide(int num1, int num2){
+        return num1 / num2;
     }
 }
